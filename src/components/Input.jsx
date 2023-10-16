@@ -174,7 +174,7 @@ const Input = ({ basic,
     if (size==='md') {
       return (
         <div className='cont-basic'>
-          <p>&lt;Input size={`${size}`} /&gt;</p>
+          <p>&lt;Input size="{`${size}`}" /&gt;</p>
           <label htmlFor='basic'>Label</label>          
           <input
             className='intpt basic md'
@@ -188,7 +188,7 @@ const Input = ({ basic,
     if (size==='lg') {
       return (
         <div className='cont-basic'>
-          <p>&lt;Input size={`${size}`} /&gt;</p>
+          <p>&lt;Input size="{`${size}`}" /&gt;</p>
           <label htmlFor='basic'>Label</label>          
           <input
             className='intpt basic lg'
