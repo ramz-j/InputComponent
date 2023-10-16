@@ -37,7 +37,8 @@
 
 ## Overview
 
-![screenshot](https://prnt.sc/iL7egfLQEvgH)
+![screenshot](https://raw.githubusercontent.com/ramz-j/inputcomponent/main/InputComponent
+/inputcomponentscr.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
