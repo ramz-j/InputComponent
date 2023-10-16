@@ -1,0 +1,173 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-size: 14px;
+}
+
+label, input {
+    display: block;
+}
+  
+.intpt {
+  margin-top: 2px;
+  font-size: 16px;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  padding: 0px 20px;  
+}
+
+textarea {
+  margin-top: 2px;
+  font-size: 16px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 20px 20px;
+  resize: none;
+  border: 1px solid rgb(163, 163, 163);
+}
+
+textarea:hover{
+  border: 1px solid rgb(51, 51, 51);
+}
+
+textarea:focus{
+  outline: none;
+  border: 1px solid rgb(3, 146, 241);
+}
+
+.basic {
+  border: 1px solid rgb(163, 163, 163);
+}
+
+.basic:hover{
+  border: 1px solid rgb(51, 51, 51);
+}
+  
+.basic:focus{
+  outline: none;
+  border: 1px solid rgb(3, 146, 241);
+}
+
+.cont-basic{
+  width: 360px;
+}
+
+.cont-basic:focus-within label {
+  color:  rgb(3, 146, 241);
+}
+
+.cont-basic:focus-within span {
+  color:  rgb(3, 146, 241);
+}
+
+.error {
+  border: 1px solid rgb(241, 0, 0);
+}
+
+.error:hover {
+  border: 1px solid rgb(51, 51, 51);  
+}
+
+.cont-error:hover > label {
+  color: rgb(51, 51, 51);
+}
+
+.cont-error:hover > span {
+  color: rgb(51, 51, 51);
+}
+
+.error:focus{
+  outline: none;
+  border: 1px solid rgb(241, 0, 0);
+}
+
+.cont-error:focus-within label {
+  color:  rgb(241, 0, 0);
+}
+
+.cont-error:focus-within span {
+  color:  rgb(241, 0, 0);
+}
+
+.lbl-error{
+  color: rgb(241, 0, 0);
+}
+
+.helper-basic{
+  font-size: 12px;
+  color: grey;
+}
+
+.helper-error{
+  font-size: 12px;
+  color: rgb(241, 0, 0);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 20
+}
+
+.npt-startIcon {
+  width: 175px;
+  padding-left: 45px;
+}
+
+.cont-startIcon{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.cont-startIcon > span {
+  position: absolute;
+  top: 50%;
+  margin-left: 15px;
+  margin-top: -14px;
+  z-index: 1;
+  color: rgb(163, 163, 163);
+}
+
+.npt-endIcon {
+  width: 175px;
+  padding-right: 45px;
+}
+
+.cont-endIcon{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.cont-endIcon > span {
+  position: absolute;
+  top: 50%;
+  margin-left: 205px;
+  margin-top: -14px;
+  z-index: 1;
+  color: rgb(163, 163, 163);
+}
+
+.sm {
+  font-size: 16px;
+  width: 100px;
+  height: 40px;
+}
+
+.lg {
+  font-size: 16px;
+  width: 250px;
+  height: 80px;
+}
+
+.fullWidth {
+  width:280%;
+}
